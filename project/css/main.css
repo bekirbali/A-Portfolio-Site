@@ -5,6 +5,14 @@
   box-sizing: 0;
 }
 
+.link-style a, footer.horizontal .social-icons a {
+  padding: 0.4rem;
+  transition: 0.3s all ease-in-out;
+}
+.link-style a:hover, footer.horizontal .social-icons a:hover {
+  color: #ff652f;
+}
+
 footer.horizontal {
   padding: 0 0.5rem;
   display: flex;
@@ -56,12 +64,15 @@ footer.horizontal .social-icons {
   transition: 0.3s all ease-in-out;
 }
 .nav__link:hover {
-  color: rgb(119, 0, 0);
+  color: #ff652f;
 }
 .nav--active {
   border-radius: 10px;
   color: black;
   background-color: rgba(234, 234, 234, 0.6901960784);
+}
+.nav--active:hover {
+  color: rgba(255, 101, 47, 0.8);
 }
 
 .home-bgImg-container {
