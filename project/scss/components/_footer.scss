@@ -1,0 +1,12 @@
+footer.horizontal {
+  padding: 0 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1rem;
+  height: 10vh;
+  .social-icons {
+    display: flex;
+    gap: 1rem;
+  }
+}
