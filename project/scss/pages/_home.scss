@@ -1,0 +1,30 @@
+.home-bgImg-container {
+  @include bgImg(100vh, "../../img/model-1.jpg");
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 80vh;
+  &__name {
+    padding-bottom: 1rem;
+    border-bottom: $orange 2px solid;
+
+    h2 {
+      font-size: 1.5rem;
+    }
+    h1 {
+      font-size: 5rem;
+      font-weight: 400;
+      span {
+        font-weight: 600;
+        color: red;
+      }
+    }
+  }
+  &__title {
+    padding-top: 1rem;
+  }
+}
