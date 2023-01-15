@@ -37,12 +37,15 @@
     margin: auto 0;
     @include transition(0.3s);
     &:hover {
-      color: rgb(119, 0, 0);
+      color: $orange;
     }
   }
   &--active {
     border-radius: 10px;
     color: black;
     background-color: #eaeaeab0;
+    &:hover {
+      color: rgba($orange, 0.8);
+    }
   }
 }
