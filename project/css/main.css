@@ -30,19 +30,19 @@ footer.vertical {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  padding: 2rem;
 }
 footer.vertical .social-icons {
   display: flex;
   flex-direction: column;
   position: fixed;
   bottom: 1rem;
+  left: 1rem;
   gap: 1rem;
 }
 footer.vertical .copyright {
   position: fixed;
   bottom: 1rem;
-  right: -1rem;
+  right: 0.21rem;
   transform: rotate(90deg) translate(-3.8rem, -2rem);
 }
 
@@ -182,6 +182,52 @@ footer.vertical .copyright {
 }
 .intro__title {
   padding-top: 1rem;
+}
+
+.project-bgImg-container {
+  height: 40vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.5)), url("../../img/model-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.project-bgImg-container .projects__bio-image {
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+.projects__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem 5rem;
+  gap: 1rem 0;
+}
+.projects__item {
+  width: 100%;
+  cursor: pointer;
+  border-bottom: 5px solid #ff652f;
+  position: relative;
+}
+.projects__item img {
+  width: 100%;
+}
+.projects__item::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #ff652f;
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  transition: 0.5s all ease-in-out;
+}
+.projects__item:hover::after {
+  opacity: 0.5;
 }
 
 body {
