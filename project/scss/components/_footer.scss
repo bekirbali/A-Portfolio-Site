@@ -21,3 +21,24 @@ footer.horizontal {
     @extend .link-style;
   }
 }
+
+footer.vertical {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 2rem;
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 1rem;
+    gap: 1rem;
+    @extend .link-style;
+  }
+  .copyright {
+    position: fixed;
+    bottom: 1rem;
+    right: -1rem;
+    transform: rotate(90deg) translate(-3.8rem, -2rem);
+  }
+}
