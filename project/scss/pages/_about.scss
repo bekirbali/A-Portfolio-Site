@@ -1,0 +1,49 @@
+.about-bgImg-container {
+  @include bgImg(50vh, "../../img/model-1.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 2rem;
+  .about__bio-image {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 1rem;
+    h2 {
+      font-size: 3rem;
+      color: $orange;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+      padding: 1.3rem;
+      word-break: normal;
+    }
+  }
+}
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__container {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  &__job {
+    background-color: lighten($black, 10%);
+    border-bottom: 5px solid $orange;
+    padding: 1rem;
+    h2,
+    h3 {
+      margin: 0.5rem 0;
+    }
+    h6 {
+      margin: 0.3rem 0;
+    }
+  }
+}
