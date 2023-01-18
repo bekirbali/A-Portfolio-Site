@@ -5,12 +5,13 @@
 
 @import "./components/footer";
 @import "./components/nav";
-@import "./components/responsiveness";
 
 @import "./pages/about";
 @import "./pages/contact";
 @import "./pages/home";
 @import "./pages/projects";
+
+@import "./components/responsiveness";
 
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css);
 
