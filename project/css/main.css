@@ -5,11 +5,17 @@
   box-sizing: 0;
 }
 
-.link-style a, footer.middle a, footer.vertical .social-icons a, footer.horizontal .social-icons a {
+.link-style a,
+footer.middle a,
+footer.vertical .social-icons a,
+footer.horizontal .social-icons a {
   padding: 0.4rem;
   transition: 0.3s all ease-in-out;
 }
-.link-style a:hover, footer.middle a:hover, footer.vertical .social-icons a:hover, footer.horizontal .social-icons a:hover {
+.link-style a:hover,
+footer.middle a:hover,
+footer.vertical .social-icons a:hover,
+footer.horizontal .social-icons a:hover {
   color: #ff652f;
 }
 
@@ -106,7 +112,12 @@ footer.middle {
 .about-bgImg-container {
   height: 50vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.5)), url("../../img/model-1.jpg");
+  background: linear-gradient(
+      to right,
+      rgba(39, 39, 39, 0.8),
+      rgba(39, 39, 39, 0.5)
+    ),
+    url("../../img/model-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -161,7 +172,12 @@ footer.middle {
 .contact-bgImg-container {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.5)), url("../../img/model-1.jpg");
+  background: linear-gradient(
+      to right,
+      rgba(39, 39, 39, 0.8),
+      rgba(39, 39, 39, 0.5)
+    ),
+    url("../../img/model-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -197,7 +213,12 @@ footer.middle {
 .home-bgImg-container {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.5)), url("../../img/model-1.jpg");
+  background: linear-gradient(
+      to right,
+      rgba(39, 39, 39, 0.8),
+      rgba(39, 39, 39, 0.5)
+    ),
+    url("../../img/model-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -232,7 +253,12 @@ footer.middle {
 .project-bgImg-container {
   height: 40vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.5)), url("../../img/model-1.jpg");
+  background: linear-gradient(
+      to right,
+      rgba(39, 39, 39, 0.8),
+      rgba(39, 39, 39, 0.5)
+    ),
+    url("../../img/model-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
